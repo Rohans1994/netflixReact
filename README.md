@@ -16,6 +16,10 @@
 - Create Redux store with userSlice
 - Update Profile API of firebase
 - Added onAuthStateChanged API of firebase
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: if the user is not logged in then redirect from "/browse" to login page and vice versa
+- unsubscribed to onAuthStateChanged callback
+- Add hardcoded values to the constants file
 
 # Features
 
