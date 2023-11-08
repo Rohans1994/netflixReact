@@ -20,6 +20,21 @@
 - BugFix: if the user is not logged in then redirect from "/browse" to login page and vice versa
 - unsubscribed to onAuthStateChanged callback
 - Add hardcoded values to the constants file
+- Register TMBD API & create an app & get access token
+- Get data from TMBD now playing movies list API
+- Custom hook for now playing movies
+- Create movieSlice
+- Update store with movies data
+- Planning mainContainer and secondary container
+- Fetch data for trailer video
+- Update store with trailer video data
+- Embedded the youtube & make it autoplay & mute
+- Tailwind classes to make main conatainer similiar to Netflix
+- Build the secondary component
+- Build movie list and movie cards
+- Integrated TMBD image CDN URL and other API
+- Updated browse page with tailwind css
+
 
 # Features
 
