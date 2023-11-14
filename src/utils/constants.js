@@ -8,9 +8,21 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmMzgyZjEzNTVkODIyNTVjNzQ5MzFmNmU5NTc1OTgxMCIsInN1YiI6IjY1NDlmYjQ5NjdiNjEzMDExZjQwYzgzNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.-1wMKNSNDvlak0-Fdtm7OI5TdK_HZzx5TZtBCV8_2X8",
+    Authorization: "Bearer " + process.env.REACT_APP_TMBD_KEY,
   },
 };
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500/";
+
+export const BG_URL =
+  "https://assets.nflxext.com/ffe/siteui/vlv3/ab4b0b22-2ddf-4d48-ae88-c201ae0267e2/0efe6360-4f6d-4b10-beb6-81e0762cfe81/IN-en-20231030-popsignuptwoweeks-perspective_alpha_website_medium.jpg";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spanish", name: "Spanish" },
+];
+
+// {export const OPENAI_KEY = "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";} // This is for rohansonawane555@gmail
+
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY; // This is for rohansonawane110594@gmail

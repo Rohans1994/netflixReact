@@ -34,6 +34,18 @@
 - Build movie list and movie cards
 - Integrated TMBD image CDN URL and other API
 - Updated browse page with tailwind css
+- Created usePopularMovies custom hook
+- Implemented GPT search page
+- Implemented GPT search bar
+- (Bonus) Multi language feature in app for search bar component
+- Get open AI Api Key
+- GPT search API call
+- Fetched gptMoviesSuggestion from TMBD
+- Created GPT Slice added data
+- Reused movie list component into movie suggestion container
+- Memoization
+- Added .env file
+- Made our site responsive
 
 
 # Features
